@@ -1,0 +1,37 @@
+{
+  "name": "ytake/hack-http-server-request-handlers-interfaces",
+  "description": "PSR-15 like HTTP Server Request Handlers",
+  "keywords": [
+    "hhvm",
+    "hack",
+    "psr-15",
+    "http-handlers",
+    "request",
+    "server",
+    "middleware"
+  ],
+  "homepage": "https://github.com/ytake/hack-http-server-request-handlers-interfaces",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Yuuki Takezawa",
+      "email": "yuuki.takezawa@comnect.jp.net"
+    }
+  ],
+  "require": {
+    "hhvm": ">=3.29",
+    "hhvm/hhvm-autoload": "^1.6",
+    "facebook/hack-http-request-response-interfaces": "dev-master"
+  },
+  "require-dev": {
+    "hhvm/hhast": ">=3.29"
+  },
+	"autoload": {
+		"psr-4": {
+			"Ytake\\HackHttpServer\\": "src/"
+		}
+	},
+  "minimum-stability": "stable"
+}
