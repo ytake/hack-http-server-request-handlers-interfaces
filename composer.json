@@ -23,7 +23,7 @@
   "require": {
     "hhvm": ">=3.29",
     "hhvm/hhvm-autoload": "^1.6",
-    "facebook/hack-http-request-response-interfaces": "dev-master"
+    "facebook/hack-http-request-response-interfaces": "^0.1"
   },
   "require-dev": {
     "hhvm/hhast": ">=3.29"
